@@ -1,9 +1,9 @@
 #
-# Nasqueron  - Phabricator image
+# Deon Thomas  - Phabricator notification image
 #
 
 FROM node
-MAINTAINER Sébastien Santoro aka Dereckson <dereckson+nasqueron-docker@espace-win.org>
+MAINTAINER Deon Thomas <deon.thomas.gy@gmail.com>
 
 RUN cd /opt && \
     git clone https://github.com/phacility/libphutil.git && \
