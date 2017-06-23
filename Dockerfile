@@ -9,7 +9,7 @@ RUN cd /opt && \
     git clone https://github.com/phacility/libphutil.git && \
     git clone https://github.com/phacility/phabricator.git && \
     cd phabricator/support/aphlict/server/ && \
-    npm install ws && \
+    npm install ws@2.x && \
     groupadd -r app -g 433 && \
     mkdir /home/app && \
     useradd -u 431 -r -g app -d /home/app -s /sbin/nologin -c "Docker image user for server" app && \
